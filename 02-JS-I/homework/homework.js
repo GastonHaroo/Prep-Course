@@ -204,7 +204,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * 4
+  return lado * 4;
 }
 
 
@@ -233,7 +233,7 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
   else if (letra === "a"||letra === "e"||letra === "i"||letra === "o"||letra === "u") {
-    return "Es vocal"
+    return "Es vocal";
   }
   return "Dato incorrecto";
 }
